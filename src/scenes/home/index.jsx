@@ -8,7 +8,7 @@ import AdvertWidget from "scenes/widgets/AdvertWidget";
 import FriendsWidget from "scenes/widgets/FriendsWidget";
 
 const Home = () => {
-  const isNonMobile = useMediaQuery("(min-width:1000px)");
+  const isNonMobile = useMediaQuery("(min-width: 1024px)");
   const { _id, picturePath } = useSelector((state) => state.user);
 
   return (

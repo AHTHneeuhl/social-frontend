@@ -12,7 +12,7 @@ const Profile = () => {
   const [user, setUser] = useState(null);
   const { userId } = useParams();
   const token = useSelector((state) => state.token);
-  const isNonMobile = useMediaQuery("(min-width:1000px)");
+  const isNonMobile = useMediaQuery("(min-width: 1024px)");
 
   const getUser = async () => {
     const response = await fetch(`http://localhost:3001/user/${userId}`, {
