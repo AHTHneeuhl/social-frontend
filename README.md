@@ -1,10 +1,17 @@
 # Social Client
 
-## Available Scripts
+Running Locally
+Required - NodeJs and Yarn
 
-In the project directory, you can run:
+```sh
+git clone https://github.com/AHTHneeuhl/social-frontend.git
+cd social-frontend
+yarn install
+yarn start
+```
 
-### `yarn start`
+Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ReactJs
+- Material-UI
+- Redux-Toolkit
