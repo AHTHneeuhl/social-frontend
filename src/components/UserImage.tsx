@@ -1,6 +1,11 @@
 import { Box } from "@mui/material";
 
-const UserImage = ({ image, size = "60px" }) => {
+type TProps = {
+  image: string;
+  size?: string;
+};
+
+const UserImage: React.FC<TProps> = ({ image, size = "60px" }) => {
   return (
     <Box width={size} height={size}>
       <img

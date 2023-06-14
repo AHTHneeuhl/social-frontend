@@ -28,7 +28,7 @@ export const colorTokens = {
   },
 };
 
-export const themeSettings = (mode) => {
+export const themeSettings = (mode: "dark" | "light") => {
   return {
     palette: {
       mode: mode,
